@@ -15,9 +15,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Reacttty
         </a>
       </header>
+      <h1>Bye</h1>
     </div>
   );
 }

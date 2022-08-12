@@ -38,7 +38,7 @@ function Button({
     }
 
     const classes = cx('wrapper', {
-        [className]: classNames,
+        [className]: className,
         login_small,
         login_big,
         follow,

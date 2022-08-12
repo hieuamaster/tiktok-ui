@@ -12,6 +12,7 @@
 .inner {
     height: 100%;
     width: var(--default-layout-header-width);
+    padding: 0 var(--default-layout-horizontal-spacer) 0 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,7 +73,6 @@
     color: rgba(22, 24, 35, 0.34);
 }
 
-
 .search-btn {
     width: var(--search-button-width);
     height: 100%;
@@ -90,14 +90,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 .more-btn {
     font-size: 2rem;
-    
     margin-left: 16px;
     font-style: normal;
     padding: 0 4px;
     background-color: transparent;
+    cursor: pointer;
 }
-
